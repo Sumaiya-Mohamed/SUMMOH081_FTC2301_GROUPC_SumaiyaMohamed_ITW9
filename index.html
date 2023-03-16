@@ -7,12 +7,12 @@
   </head>
 
     <body id="container">
-  
+     
       <header id="box1">
-        <div class="hero" >
+        <div class="hero">
           <picture>
-            <source srcset="./images/heroImage.jpg" media="(max-width:768px)">
-            <source srcset="./images/heroImage.jpg" media="(max-width: 1080px)">
+            <source srcset="./images/smallHero.jpg" media="(max-width:768px)">
+            <source srcset="./images/mediumHero.jpg" media="(max-width: 1082px)">
             <img src="./images/heroImage.jpg" alt="Hero">
           </picture>
        
@@ -34,31 +34,35 @@
 
        <nav>
         <ul id="bullets">
-          <li class="bar"><a class="block" href="#discription">Personal Discription</a></li>
-         <li  class="bar" ><a class="block" href="#education">Education</a></li>
-          <li class="bar" ><a class="block" href="#experience">Experience</a></li>
-         <li class="bar" ><a class="block" href="#skills">Skills</a></li>
+          <li><a class="block" href="#discription">Personal Discription</a></li>
+         <li><a class="block" href="#education">Education</a></li>
+          <li><a class="block" href="#experience">Experience</a></li>
+         <li><a class="block" href="#skills">Skills</a></li>
          </ul>
       </nav>
-  
-      <section id="box3">
-        <article>
-          <h2 id="discription" class="font"> Personal Description</h2>
+       
+      <br>
+      <br>
+      <section id="box3" >
+          <h2 id="discription"> Personal Description</h2>
           <div class="grid-container">
             <div class="g1">
-              <p>I am a hardworking individual that is enthusiastic about my career.</p>
-                <p>I take responsibility seriously and I like to keep things organised.</p>
-             <p> I am a good leader and enjoy working with others.</p>
-              <p>I  work well under pressure and can adapt to change easily.</p>
-            <p> I have good listening and communication skills , a creative mindset and I enjoy a challenge.</p>
+              <p>I am a hardworking individual that is enthusiastic about my career.
+              I take responsibility seriously and I like to keep things organised.
+              I am a good leader and enjoy working with others.
+              I  work well under pressure and can adapt to change easily.
+             I have good listening and communication skills , a creative mindset and I enjoy a challenge.
+              </p>
+           
             </div>
            <div class="g2">
             <img src="./images/sumaiyaImage.jpg" alt="Picture of Sumaiya" >
            </div>
           </div>
-        </article>
-      <article >
-         <h2 id="education" class="font">Educational History</h2>
+  
+        <div  class="flex-container">
+        <article class="flex-item1">  
+         <h2 id="education">Educational History</h2>
          <div class="grid-container1">
        <div class="grid-container-item1">
         <ul>
@@ -97,12 +101,14 @@
           <br>
           <br>
        <p>Completed an intro to web course.</p>
-      </div>
-      </div>
+        </div>
+       </div>
+      
        </article>
        <br>
        <br>
-      <article>
+     
+       <article class="flex-item2">
         <h2 id="experience" class="font">Working Experience</h2>
          <div class="grid-container2">
          <div class="grid-item1">
@@ -130,7 +136,7 @@
           <br>
          </ul>
        </div>
-
+       
        <div class="grid-item2">
           <p> Designed and created various handmade gifts.</p>
           <br>
@@ -139,11 +145,14 @@
           <p>Part-time personal assistant to the principal. </p>
         </div>
       </div>
-      </article>
+       </article>
+  </div>
      <br>
      <br>
-     <article>
-      <h2 id="skills" class="font">Skills:</h2>
+    <br>
+    
+    
+      <h2 id="skills" >Skills:</h2>
           <div class="grid-container3">
             <div class="item1">
             <p>Html</p>
@@ -169,18 +178,22 @@
                 <p>Speed Typing</p>
                 </div>
           </div>
-      </article>
       
-       </section>
+    
+      </section>
       <br>
       <br>
       <br>
     <footer id="box4">
-      <h2 class="font" id="contact details">Contact Details</h2>
-      <a href="https://www.linkedin.com/in/sumaiya-mohamed-38445b267/">LinkedIn</a>
-    
-      <div class="form">
-      <form action="https://formsubmit.co/2d70f428c8415d13e5162cf223d040b4 " method="POST">
+      <h2 id="contact details" class="footerFont">Contact Details</h2>
+      <a href="https://www.linkedin.com/in/sumaiya-mohamed-38445b267/" class="linked"><img src="./images/linkedIn.png" alt="linkedIn Image"/></a>
+      <a href="#form" class="mail"><img src="./images/mail.png" alt="mail Image"/></a>
+      <a href="https://github.com/Sumaiya-Mohamed?tab=repositories" id="git2"><img src="./images/GitHub-Mark.png" alt="GitHub Image"/></a>
+      <br>
+     <br>
+      
+      <form action="https://formsubmit.co/2d70f428c8415d13e5162cf223d040b4 " method="POST" id="form">
+        <div class="formStyle">
       <h4>Feedback Form</h4>
      <ul>
      <li>
@@ -235,10 +248,10 @@
   
       <br>
       <input type="submit">
+        </div>
       </form>
-      </div>
-  </footer>
-   
+     </footer>
+     
     </body>
     </html>
   
