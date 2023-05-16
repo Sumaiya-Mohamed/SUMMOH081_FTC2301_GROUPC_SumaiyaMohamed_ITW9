@@ -6,8 +6,8 @@ Sumaiya-Mohamed/SUMMOH081_FTC2301_GROUPC_SumaiyaMohamed_ITW9
 (Personal Portfolio)
 
 #Technologies Used:
-HTML
-CSS
+HTML,
+CSS,
 Figma
 
 #Planning:
